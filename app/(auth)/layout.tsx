@@ -8,5 +8,11 @@ export default function RootLayout({
 }: {
     children: React.ReactNode
 }) {
-    return
+    return (
+        <ClerkProvider>
+            <html lang="en">
+                <body className=""
+            </html>
+        </ClerkProvider>
+    )
 }
